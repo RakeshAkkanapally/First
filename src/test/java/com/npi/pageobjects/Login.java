@@ -3,6 +3,7 @@ package com.npi.pageobjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.testng.asserts.SoftAssert;
 
 import com.npi.framework.Selenium;
 
@@ -22,7 +23,9 @@ public class Login {
 		Selenium.sendKeys(username,string);
 		Selenium.sendKeys(password,string2);
 		Selenium.click(Signin);
-		
+		SoftAssert sa=new SoftAssert();
+		sa.assertEquals("", "");
+		sa.assertAll();
 	}
 	
 	
