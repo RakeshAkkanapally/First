@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="11374" started-at="2016-12-15T15:28:35Z" finished-at="2016-12-15T15:28:46Z">
+    <groups>
+      <group name="group1">
+        <method signature="Tests.Login(java.lang.String)[pri:0, instance:com.npi.automationTests.Tests@36f6e879]" name="Login" class="com.npi.automationTests.Tests"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Regression 3" duration-ms="11374" started-at="2016-12-15T15:28:35Z" finished-at="2016-12-15T15:28:46Z">
+      <class name="com.npi.automationTests.Tests">
+        <test-method status="PASS" signature="Login(java.lang.String)[pri:0, instance:com.npi.automationTests.Tests@36f6e879]" name="Login" duration-ms="11322" started-at="2016-12-15T20:58:35Z" finished-at="2016-12-15T20:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="ntg()[pri:0, instance:com.npi.automationTests.Tests@36f6e879]" name="ntg" duration-ms="4" started-at="2016-12-15T20:58:46Z" finished-at="2016-12-15T20:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ntg -->
+      </class> <!-- com.npi.automationTests.Tests -->
+    </test> <!-- Regression 3 -->
+  </suite> <!-- Automation -->
+</testng-results>

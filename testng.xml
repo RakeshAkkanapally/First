@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation" parallel="tests" thread-count="5">
+    <listeners>
+        <listener class-name="com.npi.reporting.Listeners"/>
+    </listeners>
+
+ <!--      <test name="Regression 1">
+       <parameter name="Browser" value="Chrome" />        
+        <classes>
+            <class name="com.npi.automationTests.Tests"/>
+        </classes>
+        </test>
+        
+      <test name="Regression 2">
+       <parameter name="Browser" value="InternetExplorer" />        
+        <classes>
+            <class name="com.npi.automationTests.Tests"/>
+        </classes>
+        </test> -->
+        
+       <test name="Regression 3">
+       <parameter name="Browser" value="Chrome" />        
+        <classes>
+            <class name="com.npi.automationTests.Tests"/>
+        </classes>
+        
+        <!-- <classes>
+            <class name="com.npi.automationTests.Tests"/>
+            <method name="Login"/>
+        </classes>  -->
+        
+        <!-- <packages>
+	        <package name="com.npi.automationTests.*"/>
+        </packages> -->
+       
+       
+        <!-- <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.npi.automationTests.Tests" />
+        </classes> -->
+        
+        
+    </test>
+</suite>
