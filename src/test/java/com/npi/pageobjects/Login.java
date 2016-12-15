@@ -25,6 +25,8 @@ public class Login {
 		Selenium.click(Signin);
 		SoftAssert sa=new SoftAssert();
 		sa.assertEquals("Hi", "Hi");
+		sa.assertEquals("", "");
+		sa.assertEquals("", "");
 		sa.assertAll();
 	}
 	
